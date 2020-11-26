@@ -15,7 +15,24 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sandbox-v240/admin/assets": ["libs/admin/assets/src/index.ts"],
+      "@sandbox-v240/admin/data-access-auth": ["libs/admin/data-access-auth/src/index.ts"],
+      "@sandbox-v240/admin/data-access-core": ["libs/admin/data-access-core/src/index.ts"],
+      "@sandbox-v240/admin/feature-about": ["libs/admin/feature-about/src/index.ts"],
+      "@sandbox-v240/admin/feature-auth": ["libs/admin/feature-auth/src/index.ts"],
+      "@sandbox-v240/admin/feature-core": ["libs/admin/feature-core/src/index.ts"],
+      "@sandbox-v240/admin/feature-dashboard": ["libs/admin/feature-dashboard/src/index.ts"],
+      "@sandbox-v240/admin/feature-shell": ["libs/admin/feature-shell/src/index.ts"],
+      "@sandbox-v240/admin/layout": ["libs/admin/layout/src/index.ts"],
+      "@sandbox-v240/admin/style": ["libs/admin/style/src/index.ts"],
+      "@sandbox-v240/admin/ui-form": ["libs/admin/ui-form/src/index.ts"],
+      "@sandbox-v240/api-app-module": ["apps/api/src/app/app.module.ts"],
+      "@sandbox-v240/api/data-access-auth": ["libs/api/data-access-auth/src/index.ts"],
+      "@sandbox-v240/api/data-access-core": ["libs/api/data-access-core/src/index.ts"],
+      "@sandbox-v240/api/feature-auth": ["libs/api/feature-auth/src/index.ts"],
+      "@sandbox-v240/api/feature-core": ["libs/api/feature-core/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
